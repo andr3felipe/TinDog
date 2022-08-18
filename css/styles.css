@@ -165,22 +165,6 @@ background-color: transparent;
         font-size: 4rem;
         transition: 0.3s;
 }
-
-    .div-features:hover h3{
-        font-size: 2.5rem;
-        transition: 0.3s;    
-}
-    .div-features:hover p{
-        width: 90%;
-        font-size: 2rem;
-        transition: 0.3s;    
-}
-    .div-features:hover .features-icons{
-        font-size: 2.5rem;
-        color: #ff4c68;
-        transition: 0.3s;    
-}
-
     
 }
 
@@ -225,6 +209,21 @@ background-color: transparent;
 .p-features {
     width: 70%;
     margin: 0 auto 0 auto;
+}
+
+.div-features:hover h3{
+    font-size: 2.5rem;
+    transition: 0.3s;    
+}
+.div-features:hover p{
+    width: 90%;
+    font-size: 2rem;
+    transition: 0.3s;    
+}
+.div-features:hover .features-icons{
+    font-size: 2.5rem;
+    color: #ff4c68;
+    transition: 0.3s;    
 }
  
 /* Testimonial Section */
