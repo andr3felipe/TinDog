@@ -1,0 +1,430 @@
+body {
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.navbar-brand {
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: "Ubuntu";
+}
+
+.navbar-brand:hover {
+    transform: scale(1.35);
+    transition: 0.3s;
+}
+
+.menu {
+    color: black;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.navbar-brand:hover:after {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   border-top: 2px solid;
+   border-bottom: 2px solid;
+   border-color: white;
+   
+}
+
+.nav-link:hover:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color:white;
+ }
+
+.nav-link {
+border: none;
+background-color: transparent;
+}
+
+.span-title {
+    color: black;
+}
+
+.nav-item {
+    font-size: 1.5rem;
+    margin: 0 30px;
+    font-family: 'Montserrat-Light';
+}
+
+.btn-nav:hover {
+    transform: scale(1.3);
+    color: white;
+    background-color: transparent;
+}
+
+.btn-nav {
+    color: white;
+}
+
+.navbar {
+    padding-bottom: 100px;
+
+}
+
+.navbar-toggler-icon {
+    border-color: white;    
+}
+
+.navbar-toggler-icon:hover {
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+.navbar-toggler:hover {
+    transform: scale(1.3);
+    transition: 0.3s;
+
+}
+
+
+
+.main-h1 {
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.main-h1:hover {
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+
+.dog-img {
+    position: absolute;
+    width: 18%;
+    min-width: 400px;
+    transform: rotate(25deg);
+    margin-left: 8%;
+    top: 22%;
+}
+
+.dog-img:hover {
+    transform: rotate(0deg);
+    z-index: 2;
+    transition: 0.3s;
+}
+
+
+@media (min-width: 992px) and (max-width: 1400px) {
+    .dog-img {
+        width: 30%;
+        margin-left: 10%;
+        min-width: 300px;
+    }
+    .pricing-title:hover h2 {
+        font-size: 4rem;
+        transition: 0.3s;
+        
+    }
+    
+    .pricing-title:hover p {
+        font-size: 2rem;
+        transition: 0.3s;
+        
+    }
+    
+    #cta h3:hover {
+        width: 45%;
+        font-size: 4rem;
+        transition: 0.3s;
+}
+
+    .div-features:hover h3{
+        font-size: 2.5rem;
+        transition: 0.3s;    
+}
+    .div-features:hover p{
+        width: 90%;
+        font-size: 2rem;
+        transition: 0.3s;    
+}
+    .div-features:hover .features-icons{
+        font-size: 2.5rem;
+        color: #ff4c68;
+        transition: 0.3s;    
+}
+
+    
+}
+
+.btn-div {
+    text-align: center;
+    margin-right: 1%;
+}
+
+.title-btn-right, .title-btn-left {
+    margin: 5% 3%;
+
+ }
+
+.title-btn-left:hover, .title-btn-right:hover {
+    transform: scale(1.35);
+    margin: 5% 3%;
+    transition: 0.3s;
+    }
+
+    /* Features */
+.container-features {
+    padding: 10% 20%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.features-icons {
+    color: #ef8172;
+    font-size: 5rem;
+}
+
+.h3-features {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: black;
+    padding: 5% 0 0;
+}
+
+.p-features {
+    width: 70%;
+    margin: 0 auto 0 auto;
+}
+ 
+/* Testimonial Section */
+
+#testimonials {  
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+    
+}
+
+.testimonial-image {
+    width: 30%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    padding: 0 0 3% 0;
+    text-align: center;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 10% 20%;
+}
+
+#testimonials h2:hover{
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+
+
+#testimonials img:hover, button:hover{
+    transform: scale(1.5);
+    transition: 0.3s;
+}
+
+/* Pricing Sectcion */
+
+.card {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.card-header h3, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 2% 3%;
+}
+
+.pricing-title {
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+
+}
+
+#pricing .btn-outline-primary:hover, #pricing .btn-dark:hover {
+transform: scale(1);
+}
+
+/* CTA */
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1% 0 2%;
+}
+
+#cta h3 {
+    font-size: 3rem;
+    font-weight: 900;
+    width: 35%;
+    margin: 0 auto 0 auto;
+    padding-top: 4%;
+    line-height: 2;
+}
+
+.btn-cta {
+  margin: 3% 1% 5%;
+}
+
+.btn-cta:hover {
+    transform: scale(1.4);
+    transition: 0.3s;
+}
+
+
+/* Footer */
+
+#footer {
+    background-color: white;
+    text-align: center;
+    
+    padding: 5%;
+}
+
+#footer p {
+    margin-top: 2%;
+
+}
+
+#footer li, ul {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    color: black;
+    padding: 0;
+}
+
+#footer a {
+    color: black;
+    padding: 10px;
+}
+
+#footer li:hover{
+    transform: scale(2);
+    transition: 0.3s;
+}
+
+
+/* Press */
+
+#press img:hover{
+    transform: scale(1.4);
+    transition: 0.3s;
+}
+
+
+@media (max-width: 991px) {
+    .dog-img {
+        position: static;
+        transform: rotate(0deg);
+        min-width: 250px;
+        width: 60%;
+        margin-left: 0;
+        margin: 10px 0 0 0;
+    }
+    .main-row {
+        text-align: center;
+    }
+
+    .main-h1:hover {
+        margin-bottom: 10px;
+        transform: scale(1);
+    }
+
+    img:hover {
+        transform: scale(1.2);
+    }
+
+    #testimonials h2:hover{
+        transform: scale(1.0);
+        transition: 0.3s;
+}
+    .card:hover {
+        transform: scale(1.1);
+        transition: 0.3s;
+
+}
+    .btn-cta:hover {
+        transform: scale(1.1);
+        transition: 0.3s;
+}  
+    .title-btn-left:hover, .title-btn-right:hover {
+        transform: scale(1.1);
+        margin: 5% 3%;
+        transition: 0.3s;
+    }
+
+    .testimonial-image {
+        width: 50%;
+        border-radius: 100%;
+        margin: 20px;
+    }
+
+    #cta h3 {
+        font-size: 3rem;
+        font-weight: 900;
+        width: 60%;
+        margin: 0 auto 0 auto;
+        padding-top: 4%;
+        line-height: 2;
+    }
+
+}
