@@ -2,7 +2,7 @@ TinDog, a mockup website.
 
 * [GIF](#GIF)
 * [RESPONSIVE](#RESPONSIVE)
-* [LINK TO THE WEBSITE](# LINK TO THE WEBSITE)
+* [LINK-TO-THE-WEBSITE](#LINK-TO-THE-WEBSITE)
 
 # GIF
 <img alt="TinDog" src="./images/TinDog.gif" />
